@@ -16,7 +16,7 @@ const Cohort = new Schema({
     cohort: Number,
     fundamentalsAvg: Number,
     javascriptAvg: Number,
-    attritionRate: Number,
+    withdrawalRate: Number,
     graduationRate: Number,
     students: [Student]
 })
